@@ -36,7 +36,7 @@ p { line-height:20px; }
 #top-navigation li ul li:hover ul { top:0; left:170px; width:170px; border-top:1px solid #CCC; }
 
 /*** Search ***/
-#search-wrapper { float:right; position:relative; }
+#search-wrapper { float:right; position:relative; height: 40px;}
 #searchform input { background:#f6f6f6; border:1px solid #dfdfdf; width:200px; padding:6px; float:left; font-family: 'TitilliumText22LLight'; font-size:13px; color:#888; }
 #searchform #search-button { right:0; border:none; width:42px; padding-left:0; }
 #searchform #s:focus { outline:none; }
