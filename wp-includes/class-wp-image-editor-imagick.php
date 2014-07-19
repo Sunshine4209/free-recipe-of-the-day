@@ -40,7 +40,9 @@ class WP_Image_Editor_Imagick extends WP_Image_Editor {
 	public static function test( $args = array() ) {
 		// First, test Imagick's extension and classes.
 		if ( ! extension_loaded( 'imagick' ) || ! class_exists( 'Imagick' ) || ! class_exists( 'ImagickPixel' ) )
+		{
 			return false;
+		}
 
 		if ( version_compare( phpversion( 'imagick' ), '2.2.0', '<' ) )
 			return false;
