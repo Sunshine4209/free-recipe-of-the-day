@@ -1,3 +1,6 @@
 wp-config.php
 .DS_Store
 wp-content/uploads
+error_log
+wp-admin/error_log
+

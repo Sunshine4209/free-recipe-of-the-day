@@ -201,6 +201,7 @@
 			<?php endwhile; endif; ?>
 		
 		</div><!-- END MAIN -->
+</div> <!-- END WRAPPER -->
 
 <?php include('sidebar.php'); ?>
 		
