@@ -7,6 +7,9 @@
 <title><?php bloginfo('name'); ?> <?php wp_title(' - ', true, 'left'); ?></title>
 
 <link rel="stylesheet" href="<?php bloginfo('stylesheet_url'); ?>" type="text/css" />
+<link rel="stylesheet" href="<?php bloginfo('template_url'); ?>/css/menuplanner.css" type="text/css" />
+<link rel="stylesheet" href="<?php bloginfo('template_url'); ?>/css/bootstrap/bootstrap.css" type="text/css" />
+
 <?php if(get_option('fp_custom_favicon')) { ?><link rel="shortcut icon" href="<?php echo get_option('fp_custom_favicon'); ?>" /><?php } ?>
 
 <?php if ($tz_feedburner) { ?>
@@ -20,6 +23,8 @@
 <?php wp_enqueue_script('jquery'); ?>
 <?php wp_enqueue_script('FoodPress', get_bloginfo('template_directory'). '/js/scripts.js'); ?>
 <?php wp_enqueue_script('nivo', get_bloginfo('template_directory'). '/js/jquery.nivo.slider.pack.js'); ?>
+<?php wp_enqueue_script('menuplanner', get_bloginfo('template_directory'). '/js/menuplanner.js'); ?>
+<?php wp_enqueue_script('bootstrap', get_bloginfo('template_directory'). '/js/bootstrap/bootstrap.js'); ?>
 
 <?php wp_head(); ?>
 
