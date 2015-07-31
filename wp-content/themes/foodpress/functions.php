@@ -148,28 +148,28 @@ $meta_box = array(
 		array(
 			'name' => 'Fat',
 			'desc' => 'Enter the number of grams of fat',
-			'id' => $prefix . 'calories',
+			'id' => $prefix . 'fat',
 			'type' => 'text',
 			'std' => ''
 		),
 		array(
 			'name' => 'Cholesterol',
 			'desc' => 'Enter the number of milligrams of cholesterol',
-			'id' => $prefix . 'calories',
+			'id' => $prefix . 'cholesterol',
 			'type' => 'text',
 			'std' => ''
 		),
 		array(
 			'name' => 'Carbohydrates',
 			'desc' => 'Enter the number of grams of carbohydrates',
-			'id' => $prefix . 'calories',
+			'id' => $prefix . 'carbs',
 			'type' => 'text',
 			'std' => ''
 		),
 		array(
 			'name' => 'Protein',
 			'desc' => 'Enter the number of grams of protein',
-			'id' => $prefix . 'calories',
+			'id' => $prefix . 'protein',
 			'type' => 'text',
 			'std' => ''
 		)
