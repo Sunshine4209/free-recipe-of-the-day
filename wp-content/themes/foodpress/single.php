@@ -41,7 +41,46 @@
 				<?php if (  (function_exists('has_post_thumbnail')) && (has_post_thumbnail())  ) { /* if post has a thumbnail */ ?>
 				<?php the_post_thumbnail('post-thumb', array('class' => 'post-thumb')); ?>
 				<?php } ?>
-				
+
+
+			<?php if(get_post_meta($post->ID, "foodpress_calories", true)) { ?>
+				<div style="width: 620px;height: 58px; #E5E5E5 ;margin-bottom: 20px; margin-top: -10px;margin-left: 2px;">
+					<div class="nutritional-item"><span style="font-size: 30px;">
+					<?php if(get_post_meta($post->ID, "foodpress_calories", true)) { ?>
+						<?php echo get_post_meta($post->ID, "foodpress_calories", true); ?>
+					<?php } ?>
+						</span> <br/>Calories</div>
+					<div class="nutritional-item"><span style="font-size: 30px;">
+
+					<?php if(get_post_meta($post->ID, "foodpress_fat", true)) { ?>
+						<?php echo get_post_meta($post->ID, "foodpress_fat", true); ?>
+					<?php }?>
+
+							g</span> <br/>Fat</div>
+					<div class="nutritional-item"><span style="font-size: 30px;">
+
+					<?php if(get_post_meta($post->ID, "foodpress_cholesterol", true)) { ?>
+						<?php echo get_post_meta($post->ID, "foodpress_cholesterol", true); ?>
+					<?php } ?>
+
+							mg</span> <br/>Cholesterol</div>
+					<div class="nutritional-item"><span style="font-size: 30px;">
+
+					<?php if(get_post_meta($post->ID, "foodpress_carbs", true)) { ?>
+						<?php echo get_post_meta($post->ID, "foodpress_carbs", true); ?>
+					<?php } ?>
+
+							g</span> <br/>Carbohydrates</div>
+					<div class="nutritional-item"><span style="font-size: 30px;">
+
+					<?php if(get_post_meta($post->ID, "foodpress_protein", true)) { ?>
+						<?php echo get_post_meta($post->ID, "foodpress_protein", true); ?>
+					<?php } ?>
+
+							g</span> <br/>Proteins</div>
+				</div>
+			<?php } ?>
+
 				<div class="post-content">
 				
 					<?php if(get_post_meta($post->ID, "foodpress_ingredients", true)) { ?>

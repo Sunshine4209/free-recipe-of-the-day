@@ -137,7 +137,43 @@ $meta_box = array(
             'id' => $prefix . 'ingredients',
             'type' => 'textarea',
             'std' => ''
-        )
+        ),
+		array(
+			'name' => 'Calories',
+			'desc' => 'Enter the number of calories',
+			'id' => $prefix . 'calories',
+			'type' => 'text',
+			'std' => ''
+		),
+		array(
+			'name' => 'Fat',
+			'desc' => 'Enter the number of grams of fat',
+			'id' => $prefix . 'calories',
+			'type' => 'text',
+			'std' => ''
+		),
+		array(
+			'name' => 'Cholesterol',
+			'desc' => 'Enter the number of milligrams of cholesterol',
+			'id' => $prefix . 'calories',
+			'type' => 'text',
+			'std' => ''
+		),
+		array(
+			'name' => 'Carbohydrates',
+			'desc' => 'Enter the number of grams of carbohydrates',
+			'id' => $prefix . 'calories',
+			'type' => 'text',
+			'std' => ''
+		),
+		array(
+			'name' => 'Protein',
+			'desc' => 'Enter the number of grams of protein',
+			'id' => $prefix . 'calories',
+			'type' => 'text',
+			'std' => ''
+		)
+
     )
 );
 
