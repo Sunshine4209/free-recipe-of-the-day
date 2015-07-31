@@ -54,13 +54,17 @@
 
 					<?php if(get_post_meta($post->ID, "foodpress_fat", true)) { ?>
 						<?php echo get_post_meta($post->ID, "foodpress_fat", true); ?>
-					<?php }?>
+					<?php } else {?>
+						0
+					<?php } ?>
 
 							g</span> <br/>Fat</div>
 					<div class="nutritional-item"><span style="font-size: 30px;">
 
 					<?php if(get_post_meta($post->ID, "foodpress_cholesterol", true)) { ?>
 						<?php echo get_post_meta($post->ID, "foodpress_cholesterol", true); ?>
+					<?php } else {?>
+						0
 					<?php } ?>
 
 							mg</span> <br/>Cholesterol</div>
@@ -68,6 +72,8 @@
 
 					<?php if(get_post_meta($post->ID, "foodpress_carbs", true)) { ?>
 						<?php echo get_post_meta($post->ID, "foodpress_carbs", true); ?>
+					<?php } else {?>
+						0
 					<?php } ?>
 
 							g</span> <br/>Carbohydrates</div>
@@ -75,6 +81,8 @@
 
 					<?php if(get_post_meta($post->ID, "foodpress_protein", true)) { ?>
 						<?php echo get_post_meta($post->ID, "foodpress_protein", true); ?>
+					<?php } else {?>
+						0
 					<?php } ?>
 
 							g</span> <br/>Proteins</div>
