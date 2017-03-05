@@ -194,7 +194,19 @@
 			
 			</div>
 			<?php } ?>
-			
+
+			<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- FROTD_single_post -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-0791652955704254"
+     data-ad-slot="7905428933"
+     data-ad-format="auto"></ins>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
+<br /><br />
 			<?php if(get_option('fp_author_box') == "false" || get_option('fp_author_box') == "") { ?>
 			<div class="post-block">
 			
