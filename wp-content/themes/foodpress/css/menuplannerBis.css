@@ -1,0 +1,44 @@
+.menu-planner {
+    width: 620px;
+    display: block;
+    font-family: 'TitilliumText22LLight';
+}
+
+.menu-planner .recipes-of-week {
+    width: 620px;
+    min-height: 100px;
+}
+.menu-planner .recipes-of-week h1{
+    font-size: 25px;
+}
+.menu-planner .recipes-of-week .a-recipe {
+
+}
+
+.menu-planner .recipes-of-week .recipe-picture {
+
+}
+
+.menu-planner .recipes-of-week .recipe-picture .week-day {
+
+}
+.menu-planner .recipes-of-week .recipe-picture p {
+    margin-bottom: 0 !important;
+    margin-top: -17px !important;
+}
+.menu-planner .recipes-of-week .recipe-picture img {
+
+}
+
+.menu-planner .recipes-of-week .recipe-title {
+
+}
+
+.menu-planner .recipes-of-week .recipe-details {
+
+}
+
+
+.menu-planner .grocery-list {
+
+}
