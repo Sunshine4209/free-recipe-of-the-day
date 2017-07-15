@@ -139,7 +139,7 @@ $options[] = array( "name" => "Appearance Options",
 $options[] = array( "name" => "Navigation Background",
 						"desc" => "Enter a color for the main navigation background",
 						"id" => $shortname."_navi_bg",
-						"std" => "#f8560e",
+						"std" => "#e67e2d",
 						"type" => "color");
 						
 $options[] = array( "name" => "Navigation Link Color",
@@ -157,7 +157,7 @@ $options[] = array( "name" => "Navigation Link Text-Shadow",
 $options[] = array( "name" => "Link Color",
 						"desc" => "Enter a color for the link color",
 						"id" => $shortname."_link_color",
-						"std" => "#f8560e",
+						"std" => "#e67e2d",
 						"type" => "color");
 						
 $options[] = array( "name" => "Archive Options",

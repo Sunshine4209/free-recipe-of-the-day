@@ -43,14 +43,6 @@ jQuery(document).ready(function($) {
 });
 </script>
 
-<style type='text/css'>
-a { color:<?php echo get_option('fp_link_color'); ?>; }
-#navigation-wrapper { background:<?php echo get_option('fp_navi_bg'); ?> url(<?php echo get_template_directory_uri(); ?>/images/navigation-bg.png) repeat-x;}
-#navigation li.current-menu-item a {  background:<?php echo get_option('fp_navi_bg'); ?> url(<?php echo get_template_directory_uri(); ?>/images/navi-current-bg.png) repeat-x;}
-#navigation li.current-menu-item .right-line { background:<?php echo get_option('fp_navi_bg'); ?> url(<?php echo get_template_directory_uri(); ?>/images/navi-line.png) repeat-y right}
-#navigation li a { color:<?php echo get_option('fp_navi_link'); ?>; font-size:15px; text-shadow: 1px 1px 1px <?php echo get_option('fp_navi_shadow'); ?>; }
-</style>
-
 </head>
 
 <body <?php body_class($class); ?>>
@@ -83,7 +75,7 @@ a { color:<?php echo get_option('fp_link_color'); ?>; }
 				<?php if(get_option('fp_logo')) { ?>
 				<a href="<?php echo home_url(); ?>"><img src="<?php echo get_option('fp_logo'); ?>" alt="<?php bloginfo( 'name' ); ?>" /></a>
 				<?php } else { ?>
-				<a href="<?php echo home_url(); ?>"><img src="<?php echo get_template_directory_uri(); ?>/images/logoNew.png" alt="<?php bloginfo( 'name' ); ?>" /></a>
+				<a href="<?php echo home_url(); ?>"><img src="<?php echo get_template_directory_uri(); ?>/images/logo.png" alt="<?php bloginfo( 'name' ); ?>" /></a>
 				<?php } ?>
 			</div>
 			
